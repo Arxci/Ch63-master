@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Chess Engine</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="header__nav">
+				<h1>Chess Engine</h1>
+			</nav>
+		</header>
+		<div class="board-container">
+			<div id="Board" class="board"></div>
+			<div class="game__status">
+				<div id="GameStatus"></div>
+				<button class="play__again__btn">Play Again</button>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/defs.js"></script>
+		<script src="js/io.js"></script>
+		<script src="js/board.js"></script>
+		<script src="js/movegen.js"></script>
+		<script src="js/makemove.js"></script>
+		<script src="js/evaluate.js"></script>
+		<script src="js/pvtable.js"></script>
+		<script src="js/search.js"></script>
+		<script src="js/perft.js"></script>
+		<script src="js/gui.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
