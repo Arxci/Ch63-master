@@ -1,7 +1,6 @@
 
 
 # CHESS AI
-==============
 
 This Project is an AI made using native Javascript. The AI uses the minimax alogrithm with alpha beta pruning to quickly and accurately predict the best moves
 
