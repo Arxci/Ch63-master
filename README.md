@@ -19,10 +19,6 @@ This Project is an AI made using native Javascript. The AI uses the minimax alog
 Usage
 ------------
 
-Run Command:
-
-	npm run start
-
 	You will play as white, the AI will play as black. Select a piece and select the position you want to move it to.
 	- Red squares are pieces you can capture
 	- Grey circles are place that piece can move to
