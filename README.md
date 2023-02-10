@@ -8,6 +8,7 @@ This Project is an AI made using native Javascript. The AI uses the minimax alog
 # What I Learned
 
 * How to create a fast and performant AI from scratch
+* Initializing a board by using a FEN string
 
 # Difficulties Experienced
 
